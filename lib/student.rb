@@ -1,18 +1,18 @@
 require_relative "./user.rb"
-attr_accessor :knowledge 
+attr_accessor :knowledge
 class Student < User
-  def initialize 
+  def initialize
     @knowledge = []
   end
 
   def learn (new_stuff)
-    self.knowledge << new_stuff 
+    self.knowledge << new_stuff
   end
 
-  def knowledge 
-    @knowledge 
-  end 
-  
-    
+  def knowledge
+    @knowledge
+  end
+
+
 
 end
